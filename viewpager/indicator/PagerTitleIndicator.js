@@ -25,9 +25,9 @@ export default class PagerTitleIndicator extends Component {
         titles: PropTypes.arrayOf(PropTypes.string).isRequired,
         itemStyle: ViewPropTypes.style,
         selectedItemStyle: ViewPropTypes.style,
-        itemTextStyle: Text.propTypes.style,
+        itemTextStyle: Text.propTypes?.style,
         trackScroll:PropTypes.bool,
-        selectedItemTextStyle: Text.propTypes.style,
+        selectedItemTextStyle: Text.propTypes?.style,
         selectedBorderStyle: ViewPropTypes.style,
         renderTitle: PropTypes.func
     }
